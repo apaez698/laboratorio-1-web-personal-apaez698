@@ -1,3 +1,24 @@
+main p{
+  color: blue;
+}
+
 p {
-  background-color: red;
+  color: red;
+}
+
+
+body > p{
+  color: aqua;
+}
+
+main + p{
+  color: orange;
+}
+
+p:hover{
+  color: red;
+}
+
+p:not(.clase1){
+  color:yellow
 }
